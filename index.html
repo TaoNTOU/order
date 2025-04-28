@@ -58,8 +58,8 @@
       }
 
       const formData = new FormData();
-      formData.append('entry.1343198941', name);  // 名字
-      formData.append('entry.522039630', food);   // 餐點
+      formData.append('entry.1343198941', name);  // 名字 entry
+      formData.append('entry.522039630', food);   // 餐點 entry
 
       fetch('https://docs.google.com/forms/d/e/1FAIpQLSc1z3jai_oi9PG94SGgKnKaNpTge74Nl68Hy5ZGPXH7FfHsVw/formResponse', {
         method: 'POST',
